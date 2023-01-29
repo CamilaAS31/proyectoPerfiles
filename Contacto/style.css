@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+
+body {
+    background-color: #F2E8DF;
+    margin: 0%;
+}
+
+header{
+    background-color: #8C0327;
+    display:flex;
+    justify-content: flex-end;
+    gap:30px;
+    padding-top: 40px;
+    margin: 0%;
+    height: 50px;
+    padding-right: 25px;
+}
+
+.divEnlace2{
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divEnlace1{
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divEnlace3{
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    color:#F2E8DF;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.contenedorPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 30px;
+}
+
+h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    color: #8C0327;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.contenedorPrincipal p {
+    text-align: center;
+    width: 500px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+}
+
+.contacto{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.divIcon{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    width: 300px;
+}
+
+.divIcon img{
+    height: 70px;
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+
+body {
+    background-color: #F2E8DF;
+    margin: 0%;
+}
+
+h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    color: #8C0327;
+    margin: 0;
+    padding-top: 50px;
+}
+
+header{
+    background-color: #8C0327;
+    display:flex;
+    justify-content: flex-end;
+    gap:30px;
+    padding-top: 40px;
+    margin: 0%;
+    height: 50px;
+    padding-right: 25px;
+}
+
+.divEnlace2{
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divEnlace1{
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divEnlace3{
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a{
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    color:#F2E8DF;
+    text-decoration: none;
+}
+
+.link{
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    color:#8C0327;
+    text-decoration: none; 
+    padding-top: 30px;
+}
+
+a:hover{
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.contenedorPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 20px;
+}
+
+.contenedorPrincipal p {
+    text-align: center;
+    width: 900px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    margin:0;
+}
+
+h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    color: #8C0327;
+    margin: 0;
+}
+
+.contenedorTecnologias{
+    display:flex;
+    justify-content: space-between;
+    gap:40px;
+}
+
+.divIcon{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    height: 100px;
+    width: 100px;
+}
+
+.divIcon img{
+    height: 70px;
+}
+
+.divIcon:hover {
+    position: relative;
+    top: 32px;
+}
+
+.divIcon:hover img{
+    height: 90px;
+}
+
+.divIcon:hover h4 {
+    display: block !important;
+    color: #8C0327;
+}
+
+/* ///////////////VER////////////////////
+
+#imgTS:hover +#ts {
+    display: flex;
+}
+ */
